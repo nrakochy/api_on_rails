@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "rails", '4.2.1'
 gem "activeadmin", github: "gregbell/active_admin"
 gem "devise"
 gem "pg"
@@ -8,6 +9,7 @@ gem "grape"
 gem "grape-active_model_serializers"
 gem "grape-swagger-rails"
 gem "rack-cors", require: "rack/cors"
+
 
 group :development do
   gem "better_errors"
